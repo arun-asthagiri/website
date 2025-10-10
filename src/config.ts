@@ -3,7 +3,7 @@ import type { ThemeConfig } from './types'
 export const themeConfig: ThemeConfig = {
   // SITE INFO ///////////////////////////////////////////////////////////////////////////////////////////
   site: {
-    website: 'https://astro-chiri.netlify.app/', // Site domain
+    website: 'https://arun-asthagiri.com/', // Site domain
     title: 'Arun Asthagiri', // Site title
     author: 'Asthagiri', // Author name
     description: 'Personal Website', // Site description
