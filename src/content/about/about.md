@@ -6,7 +6,7 @@ title: 'About'
 This content will be displayed at the top of the index page.
 You can leave this empty if you don’t want to show any content.
 -->
-
+Neuroscientist • Musician • Technologist
 ![Listening](./Headshot.jpg)
 
 **Arun is a scientist and musician.** He is interested in how music moves people. His research combines systems neuroscience, music cognition, and affective science to understand how a predictive brain makes meaning from organized sound (music). Specifically, he is interested in how interoception--a brain's inference and control over bodily signals--impacts musical pleasure.

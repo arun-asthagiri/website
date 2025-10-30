@@ -1,5 +1,5 @@
 ---
-title: 'Neural Effectts Live Performance'
+title: 'EEG and Live Performance'
 pubDate: '2025-08-29'
 ---
 # From Lab to Concert Hall: Effects of Live Performance on Neural Entrainment and Engagement
