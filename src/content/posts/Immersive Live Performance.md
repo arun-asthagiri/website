@@ -4,7 +4,7 @@ pubDate: '2025-07-30'
 ---
 # Making a Concert Hall Come Alive with Generative Art
 
-There are many ways people combine technology with music. I've always been of the mindset that good music doesn't need technology to be captivating. But technology, when used tastefully, is not a gimmick. It's a tool that extends the expressive capability of a performer.
+There are many ways people combine technology with music. I've always been of the mindset that good music doesn't need technology to be captivating. But technology, when used tastefully, is not a gimmick---it's a tool that extends the expressive capability of a performer.
 
 How might we create interactive visualizations that synergize with live performers? I draw from examples of living systems to design visualizations that make a concert hall live and breathe with the performers that inhabit it.
 
