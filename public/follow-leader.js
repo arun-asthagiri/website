@@ -1,3 +1,4 @@
+
 let numBots = 50;
 
 let bots = []
@@ -55,8 +56,10 @@ function Car(){
   this.size = 10;
   
   this.draw = function(){
-    this.x=mouseX;
-    this.y=mouseY;
+    // this.x=mouseX;
+    // this.y=mouseY;
+    this.x = constrain(mouseX, 0, width);
+    this.y = constrain(mouseY, 0, height);
     push();
     fill(0);
     ellipse(this.x, this.y, this.size,this.size);
