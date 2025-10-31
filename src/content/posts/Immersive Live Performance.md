@@ -1,10 +1,10 @@
 ---
-title: 'EEG and Live Performance'
-pubDate: '2025-08-29'
+title: 'Immersive Live Performance'
+pubDate: '2025-07-30'
 ---
-# From Lab to Concert Hall: Effects of Live Performance on Neural Entrainment and Engagement
+# Making a Concert Hall Come Alive with Generative Art
 
-This was the first project I led in the Music Imaging and Neural Dynamics lab working with Dr. Psyche Loui. I had the idea for it while a student at the New England Conservatory. I was fascinated by the experience of *liveness* in music---the feeling of being captivated by the spontaneous moment given to us by a live performer. Every musician and music-lover seeks out *liveness*, but we know little about how it is reflected in the brain. To this end, we measured neural activity (using EEG) from 21 participants who separately listened to live and recorded performances of solo violin music performed by Jousha Brown in a concert hall. We looked for differences in neural entrainment---the process of neural oscillations (also called brain rhythms) aligning with rhythms in the music itself. Our results provided novel insight into how live compared with recorded music uniquely engages the listening brain.
+I am interested in how 
 
 ![Landscape](./_assets/Live-rec1.jpg)
 
