@@ -4,18 +4,22 @@ pubDate: '2025-07-30'
 ---
 # Making a Concert Hall Come Alive with Generative Art
 
-I am interested in how 
+There are many ways people combine technology with music. I've always been of the mindset that good music doesn't need technology to be captivating. But technology, when used tastefully, is not a gimmick. It's a tool that extends the expressive capability of a performer.
+
+How might we create interactive visualizations that synergize with live performers? I draw from examples of living systems to design visualizations that make a concert hall live and breathe with the performers that inhabit it.
+
+
+In 2018, Reena Esmail published a piece called "Darshan" for solo violin. Six years later, I became awe-struck by it. It draws on Hindustani classical music using the Charukeshi Raag. The emotional landscape builds from a single chord that is slowly embellished with every phrase. The key feature of the piece is that it feels improvisatory---the performer can be free with time---yet it is richly structured. In a way, it is like the G Minor Adagio from solo Bach: melodic lines weave in between harmonic pillars creating a balance between freedom and structure.
+
+I set my performance of Reena Esmail's Darshan to live visualizations in 2024. I used gyroscopic sensors and accelerometry from an iPhone to capture the movements of my bow arm. This data was streamed wirelessly (UDP protocol) in real time to an animation I coded in Processing. The visuals used algorithmic design to map acoustics and motion to little snippets of synthetic life. There were small creatures that moved across the screen guided by the forces of my bow arm. There were fractal structures that looked like trees. There were strands of DNA-inspired images. 
+
+![Darshan](https://youtu.be/sen2t52yIyI?si=1cKJ2yIRvFPIoiV3)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sen2t52yIyI?si=JVWY82NnIjKPjRx3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Processing
 
 ![Landscape](./_assets/Live-rec1.jpg)
 
-I wrote and won the Entrepreneurial Musicianship grant at NEC in 2024 and began to foster an interdisciplinary collaboration between the MIND Lab and the music conservatory. I worked with Dr. Psyche Loui to design and conduct the experiment. I worked with world-renowned violinist [Joshua Brown](https://www.joshuabrownviolinist.com/), who gave around 50 live performances for my participants. We conducted the experiment at Pierce Hall at the New England Conservatory. I fondly (not so fondly) remember carrying our speaker system and EEG system back and forth from the MIND Lab to Pierce Hall for each participant session. Thank you to all the people behind the scenes---friends, family, administration :smile:---who helped make it happen.
 
-This is an [article](https://necmusic.edu/about/news/how-an-nec-violin-student-used-cutting-edge-neuroscience-to-understand-the-unspoken-connection-between-performer-and-audience/) that NEC wrote about the study.
-
-This is our [pre-print](https://pubmed.ncbi.nlm.nih.gov/40236171/) of the research article, which is currently in review. 
-
-Here are some more fun pictures:
-
-![Me](./_assets/Live-rec2.jpg)
-![Participant in recorded condition](./_assets/Live-rec3.jpg)
-![Participant in live condition](./_assets/Live-rec4.jpg)
+More recently, I became interested in how immersive performance might encourage audience agency.
