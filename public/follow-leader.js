@@ -26,7 +26,7 @@ function draw() {
   for (i = 0; i < numBots; i++){
     
     bots[i].move();
-    if (i > 5){
+    if (i > 5){ // don't visualize the bots very close to the car
       bots[i].draw();  
     }
     
@@ -38,7 +38,7 @@ function draw() {
   }
   
   car.draw();
-  // car.move();
+  car.move();
   
 }
 
@@ -55,11 +55,14 @@ function Car(){
   this.y = mouseY;
   this.size = 10;
   
+  this.targetX = 50;
+  this.targetY = 50;
+  
+  this.speed = 0.7; // speed>0
+  this.interp_amount = -0.5+1/(1+exp(-this.speed));
+  
   this.draw = function(){
-    // this.x=mouseX;
-    // this.y=mouseY;
-    this.x = constrain(mouseX, 0, width);
-    this.y = constrain(mouseY, 0, height);
+    
     push();
     fill(0);
     ellipse(this.x, this.y, this.size,this.size);
@@ -67,29 +70,31 @@ function Car(){
     pop();
   }
   
-//   this.move = function(moveTuple){
-//     if (keyIsDown(LEFT_ARROW) === true) {
-//       this.x -= 1;
-//     }
-//     if (keyIsDown(RIGHT_ARROW) === true) {
-//       this.x += 1;
-//     }
-//     if (keyIsDown(UP_ARROW) === true) {
-//       this.y -= 1;
-//     }
-//     if (keyIsDown(DOWN_ARROW) === true) {
-//       this.y += 1;
-//     }
-//   }
-
+  this.move = function(){
+    grace_length = 100;
+    if ((mouseX < width+grace_length && mouseX > -grace_length) && (mouseY < height+grace_length && mouseY > -grace_length)){
+      this.targetX = mouseX;
+      this.targetY = mouseY;
+    } else {
+      this.targetX =  constrain(width*noise(0.007*frameCount), 0, width);
+      this.targetY =  constrain(height* noise(0.009*frameCount+50000), 0, height);
+    }
+    
+    this.moveX = noiseX+constrain(lerp(0, this.targetX-this.x, this.interp_amount), -70, 70);
+    this.moveY = noiseY+constrain(lerp(0, this.targetY-this.y, this.interp_amount), -70, 70);
+    this.x += this.moveX;
+    this.y += this.moveY;
+  }
+  
 }
+  
 
 function Bot(){
   this.x = random(width);
   this.y = random(height);
   this.size = 20;
   this.speed = 0.5; // speed>0
-  this.interp_amount = -0.5+1/(1+exp(-this.speed));
+  this.interp_amount = -0.5+1/(1+exp(-this.speed)); // sigmoid
   
   this.targetX = 50;
   this.targetY = 50;
