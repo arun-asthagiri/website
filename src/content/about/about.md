@@ -10,7 +10,7 @@ You can leave this empty if you don’t want to show any content.
 
 ![Portrait](./Headshot.jpg)
 
-**Arun is a scientist and musician.** He is interested in how music becomes meaningful to people. His research combines systems neuroscience, music cognition, and affective science to understand how a predictive brain makes sense of organized sound (music). Specifically, he is interested in how the brain uses music to make predictions about bodily signals, a process called interoception, and how this underlies musical pleasure.
+**Arun is a scientist and musician.** He is interested in how music becomes meaningful to people. His research combines computational neuroscience, music cognition, and affective science to understand how a predictive brain makes sense of patterns in sound. Specifically, he is interested in how music changes the way we interpret and control signals in the body, a process called interoception, and how this relates to the experience of musical pleasure.
 
 Currently, **Arun is pursuing a PhD at Northeastern University** in the Music Image and Neural Dynamics lab working with Dr. Psyche Loui. He completed a Bachelor's of Music in violin performance at the New England Conservatory studying with Prof. Nicholas Kitchen. He has been playing violin for just about two decades. His previous mentors include Magdalena Richter and Anait Arutunian.
 
