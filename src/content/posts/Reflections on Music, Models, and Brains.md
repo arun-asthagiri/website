@@ -93,6 +93,6 @@ The reverse is also true: I think that music perception can tell us a lot about 
 
 [^model-paradigm]: Note that I'm talking about models that never "see" human data. This makes them "pure" models in the sense that they are capturing the hypothesized process rather than a human outcome. 
 
-[^OG-AI]: People like David Rumelhart, James McClelland, Geoffrey Hinton were interested in modeling how the human mind learns. They were psychologists. As part of their work, they developed mathematical frameworks for learning in parallel networks (i.e., backpropogation of errors in the multi-layer perceptron), which set the foundations for modern deep learning and AI.
+[^OG-AI]: People like David Rumelhart, James McClelland, and Geoffrey Hinton were interested in modeling how the human mind learns. They were psychologists. As part of their work, they developed mathematical frameworks for learning in parallel networks (i.e., backpropogation of errors in the multi-layer perceptron), which set the foundations for modern deep learning and AI.
 
 [^allostasis-theriault]: See [Theriault et al., 2025](https://doi.org/10.1016/j.neuron.2025.09.028).
