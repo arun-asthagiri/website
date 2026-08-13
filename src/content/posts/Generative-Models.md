@@ -3,7 +3,7 @@ title: 'Using LLMs to Understand the Brain'
 pubDate: '2025-10-30'
 ---
 
-# Using LLMs to understand Musical Predictions
+# Using Generative Models to understand Musical Predictions
 
 The human brain is thought to process sensory stimuli by making predictions.[^1] Specifically, predictive coding theory posits that the neocortex hierarchically compares input signals against top-down signals from a generative model.[^2] To test for the existance of this generative model in the brain, researchers have compared activity in large language models to neural activity in human listeners during speech perception. [^3] Less is known about whether large language model representations of music similarly map onto the human brain. In this project, I used MusicGen [^4], a multi-stage transformer trained on autoregressive acoustic prediction, to test whether musical predictions are encoded in EEG activity.
 
